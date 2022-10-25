@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='L1_BinaryGap'/>
+        <page name='L2_CyclicRotation'/>
+        <page name='L2_OddOccurrencesInArray'/>
+        <page name='L3_FrogJmp'/>
+        <page name='L3_PermMissingElem'/>
+        <page name='L6_Distinct'/>
+    </pages>
+</playground>
