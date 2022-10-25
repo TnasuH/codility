@@ -9,6 +9,7 @@
         <page name='L3_TapeEquilibrium'/>
         <page name='L4_FrogRiverOne'/>
         <page name='L4_PermCheck'/>
+        <page name='L4_MaxCounters'/>
         <page name='L6_Distinct'/>
     </pages>
 </playground>
