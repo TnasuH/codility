@@ -11,5 +11,6 @@
         <page name='L4_PermCheck'/>
         <page name='L4_MaxCounters'/>
         <page name='L6_Distinct'/>
+        <page name='L4_ MissingInteger'/>
     </pages>
 </playground>
