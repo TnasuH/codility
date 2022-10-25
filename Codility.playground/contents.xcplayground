@@ -10,7 +10,8 @@
         <page name='L4_FrogRiverOne'/>
         <page name='L4_PermCheck'/>
         <page name='L4_MaxCounters'/>
+        <page name='L4_MissingInteger'/>
         <page name='L6_Distinct'/>
-        <page name='L4_ MissingInteger'/>
+        <page name='L6_MaxProductOfThree'/>
     </pages>
 </playground>
