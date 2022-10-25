@@ -6,6 +6,7 @@
         <page name='L2_OddOccurrencesInArray'/>
         <page name='L3_FrogJmp'/>
         <page name='L3_PermMissingElem'/>
+        <page name='L3_TapeEquilibrium'/>
         <page name='L6_Distinct'/>
     </pages>
 </playground>
