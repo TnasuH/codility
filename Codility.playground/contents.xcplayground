@@ -12,6 +12,7 @@
         <page name='L4_MaxCounters'/>
         <page name='L4_MissingInteger'/>
         <page name='L5_PassingCars'/>
+        <page name='L5_CountDiv'/>
         <page name='L6_Distinct'/>
         <page name='L6_MaxProductOfThree'/>
         <page name='L6_Triangle'/>
