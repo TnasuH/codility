@@ -14,5 +14,6 @@
         <page name='L6_Distinct'/>
         <page name='L6_MaxProductOfThree'/>
         <page name='L6_Triangle'/>
+        <page name='L6_NumberOfDiscIntersections'/>
     </pages>
 </playground>
