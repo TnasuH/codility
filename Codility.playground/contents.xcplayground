@@ -14,6 +14,7 @@
         <page name='L5_PassingCars'/>
         <page name='L5_CountDiv'/>
         <page name='L5_GenomicRangeQuery'/>
+        <page name='L5_MinAvgTwoSlice'/>
         <page name='L6_Distinct'/>
         <page name='L6_MaxProductOfThree'/>
         <page name='L6_Triangle'/>
