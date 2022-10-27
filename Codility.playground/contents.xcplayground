@@ -21,5 +21,6 @@
         <page name='L6_NumberOfDiscIntersections'/>
         <page name='L7_Brackets'/>
         <page name='L7_Fish'/>
+        <page name='L7_Nesting'/>
     </pages>
 </playground>
