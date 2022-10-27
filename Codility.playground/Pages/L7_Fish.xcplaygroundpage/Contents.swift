@@ -39,33 +39,31 @@
  */
 import Foundation
 
-/// Solution Score is 25% Correctness rate is 50%
-/// Need more test case for in my flexible time
+/// Solution Score is 100%
 public func solution(_ A : inout [Int], _ B : inout [Int]) -> Int {
-#warning("There is a mistake I missed, but which case?")
-    //B means fish way <-0  1->
-    var dieIdxs = [Int]()
-    for fIdx in 0..<A.count-1 {
-        if dieIdxs.contains(fIdx) {
-            continue
-        }
-        
-        if B[fIdx] == 1 {
-            for sIdx in (fIdx+1)..<A.count {
-                if dieIdxs.contains(sIdx) {
-                    continue
-                }
-                if B[sIdx] == 0 {
-                    if A[fIdx] > A[sIdx] {
-                        dieIdxs.append(sIdx)
-                    } else {
-                        dieIdxs.append(fIdx)
-                    }
+    //B means fish way up<-0  1->down
+    var uway = [Int]()
+    var dway = [Int]()
+    let limit = A.count
+    
+    for idx in 0..<limit {
+        if B[idx] == 0 {
+            uway.append(A[idx])
+            
+            while dway.count > 0 {
+                if dway.last! < A[idx] {
+                    dway.removeLast()
+                } else {
+                    uway.removeLast()
+                    break
                 }
             }
+        } else {
+            dway.append(A[idx])
         }
+        
     }
-    return A.count - dieIdxs.count
+    return uway.count + dway.count
 }
 
 var a = [4,3,2,1,5]
