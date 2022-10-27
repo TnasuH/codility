@@ -20,5 +20,6 @@
         <page name='L6_Triangle'/>
         <page name='L6_NumberOfDiscIntersections'/>
         <page name='L7_Brackets'/>
+        <page name='L7_Fish'/>
     </pages>
 </playground>
